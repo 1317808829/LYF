@@ -28,3 +28,14 @@ for i in range(1, 10):
     print()
 
 # end='\t' 空四格不换行
+
+
+
+row = int(input('请输入行数：'))
+for i in range(row):
+    for j in range(2*i- 1):
+        if j < (row*3 - i - 1):
+            print('*',end='')
+        else :
+            print(' ',end='')
+    print()
