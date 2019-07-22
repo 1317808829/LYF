@@ -13,12 +13,12 @@ print('hello','world','and','girls', sep=',', end='!')
 print('goodbye,world',end='!\n')
     #这个是注释
    
-    """
+"""
     
     这个是
     三行
     注释
-    """
+"""
 
 import this
 
